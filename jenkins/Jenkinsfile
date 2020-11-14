@@ -17,7 +17,7 @@ pipeline {
             ok 'Do it!'
          }
          steps {
-             echo "Deploying release ${RELEASE} to environment ${TARGET_ENVIRONMENT}"
+             echo "Happen when aborted?"
          }
       }
       stage('stage-3') {
